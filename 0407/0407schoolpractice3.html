@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin:0; padding: 0;}
+    .phone{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+    }
+
+    .left{
+      width:8vw;
+      height:100vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+    }
+
+    .left>div{
+      width: 8vw;
+      height: 50vh;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .left>div>div{
+      width: 4vw;
+      height: 4vw;
+      border-radius: 20px;
+      background-color: lightskyblue;
+    }
+
+
+
+    .right{
+      width: 92vw;
+      height: 100vh;
+      background-color: lightskyblue;
+    }
+
+    .lecbox{
+      width: 92vw;
+      height: 35vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    
+    .lecbox>h1{
+      font-size: 100px;
+      color: white;
+      margin-left: 20px;
+    }
+    .lecbox>li{
+      font-size: 40px;
+      color: white;
+      margin-left: 20px;
+
+    
+    }
+    li::marker{
+      color:greenyellow
+    }
+
+    .qrbox{
+      width: 92vw;
+      height: 65vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .qrbox>div{
+      width: 90vw;
+      height: 35vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+    }
+
+    .qrbox>div>div:nth-child(1){
+      width: 15vw;
+      height: 15vw;
+      border: 1px solid black;
+
+    }
+
+    .qrbox>div>h1{
+      font-size: 50px;
+      color: lightskyblue;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="phone">
+
+    <div class="left">
+
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </div>
+
+    <div class="right">
+      
+      <div class="lecbox">
+        <h1>LECTTURE</h1>
+        <li>web publishing C</li>
+      </div>
+
+      <div class="qrbox">
+        <div>
+          <div></div>
+          <h1>QRCODE CHECK</h1>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+</body>
+</html>
